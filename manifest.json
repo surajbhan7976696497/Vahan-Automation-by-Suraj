@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "-Vahan Automation",
+  "version": "79766.964972",
+  "description": "Reliable staged Vahan automation with tab resume handling.\n\nAuthor : Suraj Bhan Singh Rathore (Baran Khurd)",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://vahan.parivahan.gov.in/vahanservice/vahan/*"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "run_at": "document_start"
+    }
+  ],
+  "author": "Suraj Bhan Singh Rathore (Baran Khurd)",
+  "homepage_url": "https://web.whatsapp.com/send/?phone=917976696497&text=Hi *Sir*%0aYour Extension - Vahan Automation%0a%0a",
+  "icons": {
+    "16": "icon.png",
+    "32": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  }
+}
